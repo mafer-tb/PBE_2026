@@ -17,3 +17,5 @@ foreach ($dados as $nome => $nota) {
 $media = $soma/5;
 
 echo "A média é $media";
+
+?>
