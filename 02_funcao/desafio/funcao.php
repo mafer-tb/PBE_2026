@@ -18,4 +18,12 @@ function calcularPedido($nome, $p_Unitario, $qtd, $desconto =0,$imposto = 0){
     ];
 }
 
+function calcularFrete($totalFinal){
+    $frete = $totalFinal * (10/ 100);
+    $totalcomFrete = $frete + $totalFinal;
+    
+    return $totalcomFrete;
+}
+
+
 ?>

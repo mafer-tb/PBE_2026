@@ -8,5 +8,7 @@ echo "Desconto:". $resuldado ["valorDesconto"] . "<br>";
 echo "Imposto:". $resuldado ["valorImposto"] . "<br>";
 echo "Total:". $resuldado ["totalFinal"] . "<br>";
 
+$totalcomFrete = calcularFrete($resuldado['totalFinal']);
+echo "Total com frete:". $totalcomFrete;
 
 ?>
