@@ -26,7 +26,8 @@ class ContaBancaria {
 }
 
 $contaBancaria = new ContaBancaria("Mafer", 1000);
-
+$contaBancaria->depositar(300);
+$contaBancaria->sacar(100);
 $contaBancaria->exibirSaldo();
 
 ?>
