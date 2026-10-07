@@ -21,7 +21,6 @@
             <option value="Estudante">Estudante</option>
             <option value="Profissional">Profissional</option>
             <option value="VIP">VIP</option>
-
         </select>
 
         <label>Data do Evento:</label><br>
@@ -33,8 +32,6 @@
         <br><br>
 
         <button type="submit" style="background:purple; color:white; padding:5px 10px;"> Inscrever-se </button>
-
     </form>
-
 </body>
 </html>
